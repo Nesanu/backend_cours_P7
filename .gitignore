@@ -1,0 +1,40 @@
+# // This file is used to ignore files and directories in the repository. It is used to avoid committing files that are not necessary for the project. 
+# It is also used to avoid committing sensitive information such as passwords, API keys, etc. to the repository. 
+# The .gitignore file is a text file that contains a list of files and directories that should be ignored by Git. 
+# Each line in the file specifies a pattern that should be ignored. The patterns can be simple file names, directory names, or more complex patterns using wildcards. 
+# The .gitignore file should be placed in the root directory of the repository. It can also be placed in subdirectories to ignore files and directories only in those subdirectories. 
+# The .gitignore file is used by Git to determine which files and directories should be ignored when committing changes to the repository. It is important to use the .gitignore file to avoid committing unnecessary files and directories to the repository. 
+# This helps keep the repository clean and organized, and makes it easier to work with the repository. 
+# The .gitignore file should be committed to the repository so that other developers working on the project can benefit from it.
+# It is also important to keep the .gitignore file up to date as the project evolves, to ensure that new files and directories are ignored as needed. 
+# The .gitignore file can be edited using a text editor, and changes to the file will take effect immediately. It is also possible to use the git command line to add, remove, and list ignored files and directories. 
+# The .gitignore file is a powerful tool for managing the files and directories in a Git repository, and should be used to keep the repository clean and organized.
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+# node_modules
+/node_modules
+# build output
+dist
+/.pnp
+.pnp.js
+/.idea
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
